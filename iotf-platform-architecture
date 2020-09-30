@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-30T00:15:30.745Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="l6TpHMmGiCx_J1g3pJvJ" version="13.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-30T00:18:11.507Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="uRWHog4ll-rvJLsNhiwv" version="13.7.6" type="github">
   <diagram id="Kx4Em77BJNqCAnHLwT9v" name="Page-1">
     <mxGraphModel dx="1298" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -396,6 +396,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="RJwJy9pWqg6aKLiy2PcV-545" value="SAMRAND" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=14;fontStyle=1" vertex="1" parent="RJwJy9pWqg6aKLiy2PcV-175">
+          <mxGeometry x="200" y="18" width="175" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="RJwJy9pWqg6aKLiy2PcV-176" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1800" y="40" width="1610" height="1440" as="geometry" />
         </mxCell>
@@ -755,7 +758,7 @@
         <mxCell id="RJwJy9pWqg6aKLiy2PcV-281" value="STI_Insurance AVI Tenent" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=14;align=center;image=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTerbwsdXzhUyimU_YoZ63PlLB3KeEltqoLHA&amp;usqp=CAU;" vertex="1" parent="RJwJy9pWqg6aKLiy2PcV-176">
           <mxGeometry x="710" y="10" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RJwJy9pWqg6aKLiy2PcV-282" value="rbb-insurance-prod-sdc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=14;fontStyle=1" vertex="1" parent="RJwJy9pWqg6aKLiy2PcV-176">
+        <mxCell id="RJwJy9pWqg6aKLiy2PcV-282" value="rbb-insurance-prod-270" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=14;fontStyle=1" vertex="1" parent="RJwJy9pWqg6aKLiy2PcV-176">
           <mxGeometry x="692.5" y="150" width="175" height="20" as="geometry" />
         </mxCell>
         <mxCell id="RJwJy9pWqg6aKLiy2PcV-283" value="GlusterFS Cluster" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=14;fontStyle=1" vertex="1" parent="RJwJy9pWqg6aKLiy2PcV-176">
@@ -783,6 +786,9 @@
               <mxPoint x="1013" y="390" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RJwJy9pWqg6aKLiy2PcV-546" value="RANDBURG" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=14;fontStyle=1" vertex="1" parent="RJwJy9pWqg6aKLiy2PcV-176">
+          <mxGeometry x="95" y="35" width="175" height="20" as="geometry" />
         </mxCell>
         <mxCell id="RJwJy9pWqg6aKLiy2PcV-286" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=14;" edge="1" parent="1" source="RJwJy9pWqg6aKLiy2PcV-285" target="RJwJy9pWqg6aKLiy2PcV-161">
           <mxGeometry relative="1" as="geometry" />
