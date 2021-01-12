@@ -1,1 +1,139 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T08:06:22.977Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.9" etag="39NA8n7kfC3KdVE_ZsD1" type="github"><diagram id="_Vkikdjjl_Bw2Oh499l2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-12T08:48:07.764Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="hpY3_t0K_w7YZCGEqoBi" version="14.1.9" type="github" pages="2">
+  <diagram id="_Vkikdjjl_Bw2Oh499l2" name="Scenario-1">
+    <mxGraphModel dx="1554" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gzgvC9JAMrZb7m-yg5qv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gzgvC9JAMrZb7m-yg5qv-1" target="gzgvC9JAMrZb7m-yg5qv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gzgvC9JAMrZb7m-yg5qv-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="230" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gzgvC9JAMrZb7m-yg5qv-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gzgvC9JAMrZb7m-yg5qv-2" target="gzgvC9JAMrZb7m-yg5qv-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gzgvC9JAMrZb7m-yg5qv-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gzgvC9JAMrZb7m-yg5qv-2" target="gzgvC9JAMrZb7m-yg5qv-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gzgvC9JAMrZb7m-yg5qv-2" value="Salesforce Auth Infra" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gzgvC9JAMrZb7m-yg5qv-4" value="Logs on to Salesforce" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="270" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gzgvC9JAMrZb7m-yg5qv-5" value="Absa AD&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gzgvC9JAMrZb7m-yg5qv-7" value="Validate credentials" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="190" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gzgvC9JAMrZb7m-yg5qv-9" value="Scenario-01" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="20" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gzgvC9JAMrZb7m-yg5qv-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gzgvC9JAMrZb7m-yg5qv-11" target="gzgvC9JAMrZb7m-yg5qv-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gzgvC9JAMrZb7m-yg5qv-15" value="Sales force provides&amp;nbsp; user info (AB Number)&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gzgvC9JAMrZb7m-yg5qv-14">
+          <mxGeometry x="-0.3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzgvC9JAMrZb7m-yg5qv-11" value="Salesforce Insurance Org" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gzgvC9JAMrZb7m-yg5qv-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gzgvC9JAMrZb7m-yg5qv-13" target="gzgvC9JAMrZb7m-yg5qv-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gzgvC9JAMrZb7m-yg5qv-13" value="AIC Portal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gzgvC9JAMrZb7m-yg5qv-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gzgvC9JAMrZb7m-yg5qv-16" target="gzgvC9JAMrZb7m-yg5qv-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gzgvC9JAMrZb7m-yg5qv-16" value="Identify User Role&amp;nbsp;&lt;br&gt;(Role Mapping in DB)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gzgvC9JAMrZb7m-yg5qv-18" value="Show Portal Screen Based on Role" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="96aVcuaD8f8UJ79S5STW" name="Scenario-2">
+    <mxGraphModel dx="1554" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="CyPqSvvd46hT94Jn2Q5l-0" />
+        <mxCell id="CyPqSvvd46hT94Jn2Q5l-1" parent="CyPqSvvd46hT94Jn2Q5l-0" />
+        <mxCell id="eScF249OfT55GGBiJ6DE-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CyPqSvvd46hT94Jn2Q5l-1" source="eScF249OfT55GGBiJ6DE-1" target="eScF249OfT55GGBiJ6DE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eScF249OfT55GGBiJ6DE-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="CyPqSvvd46hT94Jn2Q5l-1">
+          <mxGeometry x="170" y="230" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eScF249OfT55GGBiJ6DE-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CyPqSvvd46hT94Jn2Q5l-1" source="eScF249OfT55GGBiJ6DE-4" target="eScF249OfT55GGBiJ6DE-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eScF249OfT55GGBiJ6DE-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CyPqSvvd46hT94Jn2Q5l-1" source="eScF249OfT55GGBiJ6DE-4" target="eScF249OfT55GGBiJ6DE-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eScF249OfT55GGBiJ6DE-4" value="Salesforce Auth Infra" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CyPqSvvd46hT94Jn2Q5l-1">
+          <mxGeometry x="350" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eScF249OfT55GGBiJ6DE-5" value="1. Logs on to Salesforce" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="CyPqSvvd46hT94Jn2Q5l-1">
+          <mxGeometry x="205" y="270" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eScF249OfT55GGBiJ6DE-6" value="Absa AD&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="CyPqSvvd46hT94Jn2Q5l-1">
+          <mxGeometry x="350" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eScF249OfT55GGBiJ6DE-7" value="2. Validate credentials" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="CyPqSvvd46hT94Jn2Q5l-1">
+          <mxGeometry x="345" y="190" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eScF249OfT55GGBiJ6DE-8" value="Scenario-2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CyPqSvvd46hT94Jn2Q5l-1">
+          <mxGeometry x="250" y="20" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eScF249OfT55GGBiJ6DE-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CyPqSvvd46hT94Jn2Q5l-1" source="eScF249OfT55GGBiJ6DE-11" target="eScF249OfT55GGBiJ6DE-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eScF249OfT55GGBiJ6DE-10" value="3. Sales force provides&amp;nbsp; user info (AB Number)&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eScF249OfT55GGBiJ6DE-9">
+          <mxGeometry x="-0.3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eScF249OfT55GGBiJ6DE-11" value="Salesforce Insurance Org" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CyPqSvvd46hT94Jn2Q5l-1">
+          <mxGeometry x="540" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eScF249OfT55GGBiJ6DE-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CyPqSvvd46hT94Jn2Q5l-1" source="eScF249OfT55GGBiJ6DE-13" target="eScF249OfT55GGBiJ6DE-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eScF249OfT55GGBiJ6DE-18" value="5. On Auth Success" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eScF249OfT55GGBiJ6DE-12">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="14" y="42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eScF249OfT55GGBiJ6DE-17" value="4. Authenticate with salesforce using service account" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="CyPqSvvd46hT94Jn2Q5l-1" source="eScF249OfT55GGBiJ6DE-13" target="eScF249OfT55GGBiJ6DE-4">
+          <mxGeometry x="0.1111" y="50" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eScF249OfT55GGBiJ6DE-13" value="AIC Portal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CyPqSvvd46hT94Jn2Q5l-1">
+          <mxGeometry x="540" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eScF249OfT55GGBiJ6DE-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CyPqSvvd46hT94Jn2Q5l-1" source="eScF249OfT55GGBiJ6DE-15" target="eScF249OfT55GGBiJ6DE-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eScF249OfT55GGBiJ6DE-19" value="6. Show relevent page" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eScF249OfT55GGBiJ6DE-14">
+          <mxGeometry x="0.4182" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eScF249OfT55GGBiJ6DE-15" value="Identify User Role&amp;nbsp;&lt;br&gt;(Role Mapping in DB)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CyPqSvvd46hT94Jn2Q5l-1">
+          <mxGeometry x="750" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eScF249OfT55GGBiJ6DE-16" value="Show Portal Screen Based on Role" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CyPqSvvd46hT94Jn2Q5l-1">
+          <mxGeometry x="750" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
